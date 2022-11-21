@@ -1,0 +1,11 @@
+@import "../variables.modules";
+
+nav {
+  transition: $transition;
+  margin-top: 8px;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
