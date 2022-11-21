@@ -48,7 +48,7 @@ export default function Home() {
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
-                <a href="/documents/cv.pdf" download>
+                <a href="/me/documents/cv.pdf" download>
                     <Typography style={{fontWeight: "600", fontSize: "20px", marginBottom: "10px", marginTop: "10px"}}>
                         <i style={{color: "#2C7FECFF"}} className="fa fa-cloud-download" aria-hidden="true" />
                         {" "}
