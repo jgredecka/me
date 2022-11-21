@@ -3,7 +3,7 @@ import kseaplus from "../img/kseaplus.png";
 import kinet from "../img/kinet.png";
 import pdbparser from "../img/pdbparser.png";
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(0,255,164)", "rgb(74,112,243)"];
 
 export const info = {
     firstName: "Justyna",
@@ -19,12 +19,16 @@ export const info = {
             text: 'TypeScript, JavaScript, Python, React.js, Flask'
         },
         {
+            emoji: "🏢",
+            text: "Software Engineer at Healx"
+        },
+        {
             emoji: '🌎',
             text: 'Currently based in the UK'
         },
         {
-            emoji: "🏢",
-            text: "Software Engineer at Healx"
+            emoji: '☕',
+            text: 'Tea connoisseur'
         },
         {
             emoji: "📧",
@@ -36,6 +40,11 @@ export const info = {
             link: "https://github.com/jgredecka",
             icon: "fa fa-github",
             label: 'GitHub'
+        },
+        {
+            link: "https://stackoverflow.com/users/10213506/vendredisurmer",
+            icon: "fa fa-stack-overflow",
+            label: "StackOverflow",
         },
         {
             link: "https://linkedin.com/in/gredecka",

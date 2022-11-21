@@ -4,8 +4,10 @@ import me from '../../img/self.png';
 import classNames from 'classnames';
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
-import {Box} from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import {info} from "../../info/Info";
+import {Link} from "react-router-dom";
+
 
 export default function Home() {
    return (
@@ -46,6 +48,13 @@ export default function Home() {
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
+                <a href="/documents/cv.pdf" download>
+                    <Typography style={{fontWeight: "600", fontSize: "20px", marginBottom: "10px", marginTop: "10px"}}>
+                        <i style={{color: "#2C7FECFF"}} className="fa fa-cloud-download" aria-hidden="true" />
+                        {" "}
+                        Download my CV
+                    </Typography>
+                </a>
             </Box>
             <Box
                 display={'flex'}
