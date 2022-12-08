@@ -2,6 +2,7 @@ import self from "../img/self.png"
 import kseaplus from "../img/kseaplus.png";
 import kinet from "../img/kinet.png";
 import pdbparser from "../img/pdbparser.png";
+import memory from "../img/memory.png";
 
 export let colors = ["rgb(0,255,164)", "rgb(74,112,243)"];
 
@@ -58,6 +59,12 @@ export const info = {
         },
     ],
     portfolio: [
+        {
+          title: "Memory",
+          live: "https://d3v9e776h66eg7.cloudfront.net/",
+          source: "https://github.com/jgredecka/memory-game",
+          image: memory
+        },
         {
             title: "KSEAPlus",
             live: "https://ksea-plus.herokuapp.com",
